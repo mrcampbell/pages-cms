@@ -1,0 +1,19 @@
+content:
+  - name: dialogue
+    label: Dialogue
+    path: data/dialogue
+    type: collection
+    view:
+      fields: [ title, published, date ]
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
+      - name: tags
+        type: string
+        label: Tags
+        options:
+          values: [ profanity, omg, violence, tobacco, alcohol ]
