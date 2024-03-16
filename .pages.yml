@@ -17,3 +17,6 @@ content:
         label: Tags
         options:
           values: [ profanity, omg, violence, tobacco, alcohol ]
+      - name: speaker
+        type: string
+        label: Speaker
